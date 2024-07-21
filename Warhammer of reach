@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>File 1</name>
+		<update version="1.0.0">
+			<file name="file1.xml" url="https://raw.githubusercontent.com/KaidoIsADuck/homebrew/master/user-KaidoIsADuck/file1.xml" />
+		</update>
+	</info>
+	
+<?xml version="1.0" encoding="utf-8"?>
+<Compendium>
+  <Item>
+    <Name>Warhammer of Reach</Name>
+    <Type>Weapon</Type>
+    <WeaponType>Melee</WeaponType>
+    <Rarity>Uncommon</Rarity>
+    <Weight>2</Weight>
+    <Value>1000</Value>
+    <Damage>1d12</Damage>
+    <DamageType>Bludgeoning</DamageType>
+    <Properties>
+      <Property>Versatile</Property>
+    </Properties>
+    <Modifiers>
+      <Modifier>
+        <Type>Attack</Type>
+        <Value>1</Value>
+      </Modifier>
+      <Modifier>
+        <Type>Damage</Type>
+        <Value>1</Value>
+      </Modifier>
+    </Modifiers>
+    <Usage>
+      <Recharge>Short Rest</Recharge>
+      <Number>1</Number>
+    </Usage>
+    <Text>
+      <p>This magical warhammer grants a +1 bonus to attack and damage rolls made with it. When you hit with it, the weapon deals 1d12 bludgeoning damage.</p>
+      <p>Once per short rest, as a bonus action, the wielder can cause the warhammer to extend, increasing its range to 10 feet for one turn.</p>
+    </Text>
+  </Item>
+</Compendium>
+
+	
+</elements>
